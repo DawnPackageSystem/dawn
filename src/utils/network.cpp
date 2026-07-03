@@ -24,7 +24,7 @@ namespace dawn::utils
         }
 
         std::string read_buffer;
-        std::string url = "https://raw.githubusercontent.com/hypernova-developer/halo/main/recipes/" + package_name + "/install.sh";
+        std::string url = "https://raw.githubusercontent.com/DawnPackageSystem/halo/main/recipes/" + package_name + "/install.sh";
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
