@@ -1,5 +1,5 @@
 #include "engine.hpp"
-#include "network.hpp"
+#include "utils/network.hpp"
 #include <iostream>
 #include <fstream>
 #include <filesystem>

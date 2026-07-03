@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(CURL REQUIRED)
 
-include_directories(src/core src/utils)
+include_directories(src)
 
 add_executable(dawn
     src/main.cpp
