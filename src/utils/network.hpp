@@ -1,1 +1,15 @@
+#ifndef NETWORK_HPP
+#define NETWORK_HPP
 
+#include <string>
+
+namespace dawn::utils
+{
+    class Network
+    {
+    public:
+        static std::string fetch_recipe(const std::string& package_name);
+    };
+}
+
+#endif
