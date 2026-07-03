@@ -4,14 +4,14 @@
 
 void print_version()
 {
-    std::cout << R"(________                      _______        ____   _______           _____________________________________   
-\______ \ _____ __  _  ______   ___  _\   _  \      /_   |   \   _  \          \______   \_   _____/\__    ___/  _  \  
- |    |  \\__  \\ \/ \/ /    \  \  \/ /  /_\  \      |   |   /  /_\  \  ______  |    |  _/|    __)_   |    | /  /_\  \ 
- |    `   \/ __ \\     /   |  \  \   /\  \_/   \     |   |   \  \_/   \/_____/  |    |   \|        \  |    |/    |    \
-/_______  (____  /\/\_/|___|  /   \_/  \_____  / /\  |___| /\ \_____  /         |______  /_______  /  |____|\____|__  /
-        \/     \/           \/               \/  \/        \/       \/                 \/        \/                 \/)" 
+    std::cout << R"(________                        
+\______ \ _____ __  _  ______  
+ |    |  \\__  \\ \/ \/ /    \ 
+ |    `   \/ __ \\     /   |  \
+/_______  (____  /\/\_/|___|  /
+        \/     \/           \/ )" 
               << "\n\n";
-    std::cout << "Dawn Package Hunter — Version 0.1.0-BETA\n";
+    std::cout << "Dawn Package Hunter — Version 0.3.1-BETA\n";
     std::cout << "Engine: Modern C++ (Bare-Metal Execution Layer)\n";
     std::cout << "Licensing: GNU GPL v3.0\n";
     std::cout << "This DAWN has Absolute Bare-Metal Powers.\n";
@@ -24,7 +24,7 @@ void print_help()
               << "  list         - List available recipes in the HALO registry\n"
               << "  search       - Search through HALO recipe names and descriptions\n"
               << "  show         - Display detailed information about a specific recipe\n"
-              << "  install      - Fetch a recipe from HALO and install native binary via APT\n"
+              << "  install      - Fetch a recipe from HALO and execute custom install logic\n"
               << "  remove       - Remove a package natively via APT\n"
               << "  update       - Sync local package lists and HALO recipe cache\n\n"
               << "Options:\n"
