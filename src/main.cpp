@@ -11,7 +11,7 @@ void print_version()
 /_______  (____  /\/\_/|___|  /
         \/     \/           \/ )" 
               << "\n\n";
-    std::cout << "Dawn Package Hunter — Version 0.3.1-BETA\n";
+    std::cout << "Dawn Package Hunter — Version 1.0.0-LTS\n";
     std::cout << "Engine: Modern C++ (Bare-Metal Execution Layer)\n";
     std::cout << "Licensing: GNU GPL v3.0\n";
     std::cout << "This DAWN has Absolute Bare-Metal Powers.\n";
