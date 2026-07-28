@@ -10,7 +10,7 @@ SOURCES=(
     "src/utils/network.cpp"
 )
 
-CXXFLAGS="-std=c++20 -Isrc -Wall -Wextra"
+CXXFLAGS="-std=c++20 -Isrc"
 LDFLAGS="-lcurl"
 
 if g++ $CXXFLAGS "${SOURCES[@]}" -o "$OUTPUT" $LDFLAGS;
